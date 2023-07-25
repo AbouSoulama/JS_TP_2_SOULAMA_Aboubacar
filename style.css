@@ -487,8 +487,28 @@ label{
     justify-content: center;
 }
 .how{
-    margin-left: 100px;
+    margin-left: 120px;
 
+}
+.nev{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+}
+.onc{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+}
+.tro{
+    font-family:fantasy;
+    font-size: 100px;
+    color: rgb(218, 213, 213);
+}
+.bes{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(71, 71, 71);
 }
 .omni{
     display: flex;
