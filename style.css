@@ -1,19 +1,11 @@
-*{
-   margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html{
-    font-size: 16px;
-}
-
-body{
+body {
     font-family: sans-serif;
 }
-header{
+
+header {
     background: antiquewhite;
 }
+
 nav{
     width: 100%;
     height: 100%;
@@ -21,73 +13,79 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.nav li a{
+
+.nav li a {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     color: black;
     text-decoration: none;
 }
-.items{
+
+.items {
     margin-right: 20px;
 }
-.eff{
+
+.eff {
     margin-left: 10px;
     font-size: large;
 }
-.toggle{
+
+.toggle {
     display: none;
 }
 
-.background{
+.background {
     background-color:antiquewhite;
     height: 850px;
-}
-.log{
+} 
+
+.log {
     width: 150px;
     height: 25px;
     margin-left: 50px;
-
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     list-style: none;
     align-items: center;
     width: 550px;
-    
 }
     
-.font_1{
+.font_1 {
     font-size:xx-large;
 }
-.bas{
+
+.bas {
     z-index: 1;
     position: absolute;
-    padding-top: 15%;
-    right: 85px;
+    padding-top: 5%;
+    right: 250px;
     width: 400px;
-    height: 280px;
+    height: 300px;
 }
-.milieu{
+
+.milieu {
     z-index: 2;
     position: absolute;
     margin-top: 350px;
-    right: 10%;
+    right: 23%;
     width: 450px;
     height: 300px;
 }
-.haut{
+
+.haut {
     z-index: 3;
-    margin-top: 10%;
-    margin-left: 130px;
+    margin-top: 2%;
+    margin-left: 200px;
     right: px;
     padding: 0%;
-    width: 350px;
-    height: 400px;
+    width: 375px;
+    height: 450px;
 }
 
-.orange{
+.orange {
     border: 0;
     background: rgb(255, 186, 136);
     font-size: 1rem; 
@@ -96,11 +94,13 @@ nav{
      
     
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-around;
 }
-.touch_1{
+
+.touch_1 {
     background-color:orange;
     border-radius: 8px;
     padding: 10px 20px; 
@@ -109,256 +109,356 @@ nav{
     
 }
 
-.touch_2{
-    background-color: rgb(255, 255, 255);
+.touch_2 {
+    background-color: white;
     border-radius: 8px;
     padding: 10px 20px; 
     width: 200px;
     height: 50px; 
      
 }
-.smar{
+
+.smar {
     font-size: 25px;
     color: rgb(97, 97, 97);
     font-family: sans-serif;
 }
-.day{
+
+.day {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     color: rgb(46, 46, 46);
 }
- .feat{
+
+ .feat {
      display: flex;
      justify-content: center;
      font-family: "Rubik" sans-serif;
- }  
- .dimun{
+ } 
+  
+ .dimun {
      width: 200px;
      height: 30px;
      color: darkgray;
  } 
+ 
  .sect_1 {
      margin-left: 100px;
      margin-right: 100px;
  }
  
-.police{
+.police {
     display: flex;
     justify-content:space-around;
 }
-.fone_1{
+
+.sec_2 {
+    margin-left: 30px;
+    margin-right: 250px;
+}
+
+.fone_1 {
     display: flex;
     justify-content: center;
     justify-content: space-around;
 
 }
-.f_1{
+
+.f_1 {
     width: 200px;
     height: 400px;
 }
-.fone_2{
+
+.fone_2 {
     display: flex;
     justify-content: center;
     justify-content: space-around;
 
 }
-.f_2{
+
+.f_2 {
     width: 200px;
     height: 400px;
 }
-.fone_3{
+
+.fone_3 {
     display: flex;
     justify-content: center;
     justify-content: space-around;
 }
-.f_3{
+
+.f_3 {
     width: 200px;
     height: 400px;
 }
-.oranges{
+
+.oranges {
     font-family: monospace;
     font-size: 20px;
     color: rgb(238, 153, 93);
 }
-.daily{
+
+.daily {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3rem;
     color: rgb(48, 47, 47);
 }
-.un{
+
+.un {
     font-family:fantasy;
     font-size: 100px;
     color: rgb(218, 213, 213);
 }
-.deux{
+
+.deux {
     font-family:fantasy;
     font-size: 100px;
     color: rgb(218, 213, 213);
 }
-.telll{
+
+.telll {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
     color: rgb(51, 50, 50);
 }
-.apro{
+
+.apro {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
     color: rgb(51, 50, 50);
 }
-.ecri_1{
-    
-}
-.tree{
+
+.tree {
     display: flex;
     justify-content: center;
     justify-content: space-around;
 }
 
-.vegeta{
+.vegeta {
+    border: none;
+    border-radius: 15px;
     width: 300px;
-    /* height: ; */
+    
 }
-.avoca{
+
+.avoca { 
+    border: none;
+    border-radius: 15px;
     width: 300px;
-    /* height: ; */
+    
 }
 
 
-.oranges_2{
+.oranges_2 {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
     color: coral;
 }
-.center{
+
+.omni {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 47px;
+    color: rgb(53, 52, 52);
+}
+
+.center {
     display:flex;
     justify-content: center;
     color: coral;
 }
-.sect_4{
+
+.sect_4 {
     display: flex;
     justify-content: space-between;
     background-color: rgb(241, 221, 194);
 
 }
-.im1{
+
+.im1 {
     width: 200px;
     height: 200px;
 }
-.im2{
+
+.im2 {
     width: 200px;
     height: 200px; 
 }
-.im3{
+
+.im3 {
     width: 200px;
     height: 200px; 
 }
-.im4{
+
+.im4 {
     width: 200px;
     height: 200px; 
 }
-.im5{
+
+.im5 {
     width: 200px;
     height: 200px; 
 }
-.im6{
+
+.im6 {
     width: 200px;
     height: 200px;
 }
-.im7{
+
+.im7 {
     width: 200px;
     height: 200px;
 }
-.im8{
+
+.im8 {
     width: 200px;
     height: 200px;
 }
-.im9{
+
+.im9 {
     width: 200px;
     height: 200px; 
 }
-.im10{
+
+.im10 {
     width: 200px;
     height: 200px; 
 }
-.im11{
+
+.im11 {
     width: 200px;
     height: 200px; 
 }
-.im12{
+
+.im12 {
     width: 200px;
     height: 200px; 
 }
-.div_2{
+
+.div_2 {
     display: flex;
     justify-content: flex-end;
     /* align-content:; */
     flex-wrap: wrap;  
     width: 50%;
 }
-.testi{
+
+.testi {
     color: coral;
 }
-.perso_1{
-    display: flex;
-    justify-content: ;
-    
+
+.perso_1 {
+    display: flex;  
 }
-.perso_2{
-    display: flex;
-    
-    
-     
+
+.perso_2 { 
+    display: flex;  
 }
-.h1{
+
+.h1{ 
     border-radius: 25px;
     width: 60px;
     height: 60px;
 }
-.h2{
+
+.h2 {
     border-radius: 25px;
     width: 60px;
     height: 60px;
 }
-.h3{
+
+.h3 {
     border-radius: 25px;
     width: 60px;
     height: 60px;
 }
-.f1{
+
+.f1 {
     border-radius: 25px;
     width: 60px;
     height: 60px;
 }
-.div_1{
+
+.div_1 {
     margin-left: 150px;
     
     
 }
-.div_2_1{
+
+.div_2_1 {
     display:flex;
     justify-content: flex-end;
     flex-wrap: wrap; 
 }
-.green{
-    background-color: rgb(98, 196, 0);
+
+.green {
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(16, 219, 84);
+    width: 100px;
 }
-.vert{
-    background-color: rgb(148, 250, 46);
+
+.vert {
+    border: none;
+    border-radius: 15px;
+    width: 70px;
+    background-color: rgb(130, 238, 22);
 }
-.yello{
-    background-color: rgb(248, 244, 0);
+
+.yello {
+    border: none;
+    border-radius: 15px;
+    width: 75px;
+    background-color: rgb(248, 223, 0);
 }
-.pricing{
+
+.jap {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(59, 59, 59);
+}
+
+.cal {
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(77, 77, 77);
+}
+
+.w {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(70, 69, 69);
+}
+.list {
+    list-style: none;
+}
+
+.ord {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: rgb(41, 40, 40);
+}
+
+.bord {
+    background: rgb(247, 243, 243);
+    border-radius: 15px;
+}
+
+.pricing {
     color: coral;
 }
-.principal{
+
+.principal {
     display: flex;
     justify-content: center;
 }
-.start_1{
+
+.start_1 {
     background-color: rgb(243, 132, 92);
     border-radius: 10px;
     height: 50px;
     width: 200px;
 }
+
 .bordur_1{
     border: 1px solid orange;
     width: 300px;
@@ -367,7 +467,8 @@ nav{
     background-color: beige;
     
 }
-.bordur_2{
+
+.bordur_2 {
     border: 1px solid orange;
     background-color: rgb(245, 185, 164);
     margin-left: 60px;
@@ -377,40 +478,49 @@ nav{
     border-radius: 15px;
 
 }
-.z{
+
+.z {
     position: relative;
     left: 400px;
 }
-.start_2{
+
+.start_2 {
     background-color: coral;
     margin-left: 30px;
     height: 50px;
     width: 200px;
     border-radius: 10px
 }
-.p{
+
+.p {
     display: flex;
     justify-content: center;
 }
-.second{
+
+.second {
     display: flex;
     justify-content: space-around;
 }
-.sect_3{
-    display: flex;
-    justify-content: space-between;
+
+.set_3 {
+    margin-left: 150px;
+    margin-right: 200px;
+
 }
-.sect_6{
+
+.sect_6 {
     display: flex;
     justify-content:space-around ;
     background-color: rgb(233, 143, 80);
-    margin-left: 130px;
+    margin-left: 240px;
+    margin-right: 150px;
     border-radius: 10px;
     height: 400px;
     width: 1100px;
 }
-.ima{
 
+.ima {
+border: 1px solid rgb(233, 143, 80);
     width: 295px;
     height: 398px;
     margin-left: 38px;
@@ -418,24 +528,31 @@ nav{
     border-radius: 5px;
 }
 
-.Gety{
+.f {
+    color: orangered;
+}
+
+.Gety {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 35px;
     margin-left: 50px;
 }
-.Healt{
+
+.Healt {
     font-family: sans-serif;
     font-size: 22px;
     margin-left: 50px;
 }
+
 .s{
     display: flex;
 }
 
-.email{
+.email {
     margin-left: 60px;
 }
-.blanc{
+
+.blanc {
     background-color: rgb(255, 255, 255);
     width: 300px;
     height: 45px;
@@ -443,7 +560,8 @@ nav{
     border-radius: 15px;
     margin-left: 50px;
 }
-.sele{
+
+.sele {
     background-color: rgb(255, 255, 255);
     width: 300px;
     height: 45px;
@@ -451,42 +569,51 @@ nav{
     border-radius: 15px;
     margin-left: 50px;
 }
-label{
+
+label {
     font-family: sans-serif;
     font-size: 20px;
     margin-left: 50px;
 }
-.choco{
+
+.choco {
     background-color: rgb(168, 89, 32);
     margin-left: 107px;
     height: 50px;
     width: 300px;
     border-radius: 10px
 }
-.logo_2{
+
+.logo_2 {
     width: 150px;
     height: 30px;
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: space-around;
 }
-.reseau_2{
+
+.reseau_2 {
     width: 150px;
     height: 50px;
     
 }
-.ben{
+
+.ben {
     margin-left: 100px;
 }
-.ana{
+
+.ana {
     margin-left: 100px;
 }
-.tech{
+
+.tech {
     display: flex;
     justify-content: center;
 }
-.how{
+
+.how {
     margin-left: 120px;
 
 }
@@ -529,7 +656,11 @@ label{
     width: 200px;
     border-radius: 10px
 }
-
+footer{
+    margin-left: 200px;
+    margin-right: 100px;
+    height: 350px;
+}
 
 
 @media all and (max-width: 350px) {
@@ -578,10 +709,7 @@ label{
     .open .nav {
         transform: translateX(0);
     }
-    .font_1{
-        font-size: 1em;
-        padding-top: 25px;
-    }
+    
 }
 
 
@@ -631,7 +759,7 @@ label{
         justify-content: space-around;
         transform: translateX(-100%);
         transition: transform 1s;
-        background: rgb(245, 245, 245);
+        background: rgb(255, 243, 243);
     }
     .nav li a {
         font-size: 2rem;
@@ -643,12 +771,5 @@ label{
     .open .nav {
         transform: translateX(0);
     }
-    .font_1{
-        font-size: 1em;
-        padding-top: 25px;
-    }
-    .bas{
-        width: 100px;
-        height: 75px;
-    }
+    
 }
