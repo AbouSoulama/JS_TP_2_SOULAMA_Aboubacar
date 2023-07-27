@@ -293,64 +293,9 @@ nav{
     margin-top: 150px;
 }
 
-.im1 {
+.im {
     width: 200px;
     height: 200px;
-}
-
-.im2 {
-    width: 200px;
-    height: 200px; 
-}
-
-.im3 {
-    width: 200px;
-    height: 200px; 
-}
-
-.im4 {
-    width: 200px;
-    height: 200px; 
-}
-
-.im5 {
-    width: 200px;
-    height: 200px; 
-}
-
-.im6 {
-    width: 200px;
-    height: 200px;
-}
-
-.im7 {
-    width: 200px;
-    height: 200px;
-}
-
-.im8 {
-    width: 200px;
-    height: 200px;
-}
-
-.im9 {
-    width: 200px;
-    height: 200px; 
-}
-
-.im10 {
-    width: 200px;
-    height: 200px; 
-}
-
-.im11 {
-    width: 200px;
-    height: 200px; 
-}
-
-.im12 {
-    width: 200px;
-    height: 200px; 
 }
 
 .div_2 {
@@ -781,37 +726,35 @@ footer{
     }
     .background{
         height: 1300px;
+        width: 280px;
     }
     .log{
         margin-left: 0px;
     }
     .bas {position: absolute;
         z-index: 1;
-        right: 75px;
-        width: 150px;
-        height: 210px;
-        margin-top: -15px;
+        right: 50px;
+        width: 95px;
+        height: 145px;
+        margin-top: 50px;
     }
     
     .milieu {
         position: absolute;
         z-index: 2;
-        margin-top: 10%;
-        right: 75px;
-        width: 215px;
-        height: 175px;
+        margin-top: 45%;
+        right: 40px;
+        width: 145px;
+        height: 100px;
     }
-    /* .feat{
-        display: flex;
-    } */
     
     .haut {
         position: absolute;
         z-index: 3;
-        margin-top: 6%;
-        right: 35px;
-        width: 175px;
-        height: 125px;
+        margin-top: 40%;
+        right: 10px;
+        width: 100px;
+        height: 85px;
     }
     
     .sect_1{
@@ -860,6 +803,7 @@ footer{
     .sect_4{
         flex-direction: column;
         height: 4000px;
+        width: 280px;
     }
     .testi{
         font-size: 15px;
@@ -889,13 +833,14 @@ footer{
     }
     .div_2_1{
         margin-top: -850px;
-        margin-left: 75px;
+        margin-left: 50px;
     }
     .pricing{
         margin-left: -100px;
         font-size: 25px;
     }
     .Eati{
+        font-size: 25px;
         margin-left: -100px;
     }
     .second{
@@ -1010,6 +955,10 @@ footer{
          height: 20px;
         margin-top: 30px;
     }
+    .im {
+        width: 200px;
+        height: 200px;
+    }
     .day{
         font-size: 25px;
     }
@@ -1023,7 +972,7 @@ footer{
         font-size: 20px;
     }
     footer{
-        height: 1600px;
+        height: 1800px;
         flex-direction: column;
     }
     .logo_2{
@@ -1076,6 +1025,35 @@ footer{
         transform: translateX(0);
     }
     
+}
+
+@media all and (max-width: 184px) {
+    
+    .bas {position: absolute;
+        z-index: 1;
+        right: -20px;
+        width: 95px;
+        height: 115px;
+        margin-top: 20px;
+    }
+    
+    .milieu {
+        position: absolute;
+        z-index: 2;
+        margin-top: 45%;
+        right: -30px;
+        width: 145px;
+        height: 100px;
+    }
+    
+    .haut {
+        position: absolute;
+        z-index: 3;
+        margin-top: 40%;
+        right: -60px;
+        width: 100px;
+        height: 85px;
+    }
 }
 
 
