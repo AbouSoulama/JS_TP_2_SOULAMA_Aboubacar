@@ -780,33 +780,38 @@ footer{
         flex-direction: column;
     }
     .background{
-        height: 1400px;
+        height: 1300px;
     }
-    
-    .bas {
+    .log{
+        margin-left: 0px;
+    }
+    .bas {position: absolute;
         z-index: 1;
-        position: absolute;
-        right: 100px;
+        right: 75px;
         width: 150px;
-        height: 125px;
+        height: 210px;
+        margin-top: -15px;
     }
     
     .milieu {
-        z-index: 2;
         position: absolute;
-        margin-top: 20%;
-        right: 22%;
-        width: 150px;
-        height: 150px;
+        z-index: 2;
+        margin-top: 10%;
+        right: 75px;
+        width: 215px;
+        height: 175px;
     }
+    /* .feat{
+        display: flex;
+    } */
     
     .haut {
+        position: absolute;
         z-index: 3;
-        margin-top: 55%;
-        right: 200px;
-        padding: 0%;
-        width: 150px;
-        height: 100px;
+        margin-top: 6%;
+        right: 35px;
+        width: 175px;
+        height: 125px;
     }
     
     .sect_1{
@@ -814,7 +819,215 @@ footer{
     }
     .police{
         flex-direction: column;
-        margin-right: 300px;
+        margin-left: -75px;
+    }
+    .oranges{
+        flex-direction: none;
+        margin-left: -50px;
+    }
+    .daily{
+        font-size: 25px;
+        margin-left: -50px;
+    }
+    .nev{
+        display: flex;
+    }
+    .onc{
+        display: flex;
+    }
+    .bes{
+        display: flex;
+    }
+    .cal{
+        display: flex;
+        font-size: 20px;
+    }
+    .list{
+        margin-left: 0px;
+        font-size: 18px;
+    }
+    .sec_2{
+        margin-left: 50px;
+    }
+    .w{
+       font-size: 25px;
+        margin-left: 20px;
+    }
+    .center{
+        margin-left: 50px;
+        font-size: 25px;
+    }
+    .sect_4{
+        flex-direction: column;
+        height: 4000px;
+    }
+    .testi{
+        font-size: 15px;
+        margin-left: -30px;
+    }
+    .oney{
+        font-size: 20px;
+        margin-left: -50px;
+    }
+    .perso_1{
+        flex-direction: column;
+    }
+    .perso_2{
+        flex-direction: column;
+    }
+    .dav{
+        margin-left: -50px;
+    }
+    .ben{
+        margin-left: -50px;
+    }
+    .stev{
+        margin-left: -50px;
+    }
+    .ana{
+        margin-left: -50px;
+    }
+    .div_2_1{
+        margin-top: -850px;
+        margin-left: 75px;
+    }
+    .pricing{
+        margin-left: -100px;
+        font-size: 25px;
+    }
+    .Eati{
+        margin-left: -100px;
+    }
+    .second{
+        flex-direction: column;
+    }
+    .coo{
+        margin-left: -100px;
+    }
+    .onf{
+        margin-left: -100px;
+    }
+    .goin{
+        margin-left: -100px;
+    }
+    .set_3{
+        margin-left: -10px;
+    }
+    .esss{
+        width: 200px;
+    }
+    .flexb{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .fone_1{
+        flex-direction: column;
+    }
+    .f_1{
+        width: 100px;
+        height: 200px;  
+    }
+    .f_2{
+        width: 100px;
+        height: 200px;  
+    }
+    .f_3{
+        width: 100px;
+        height: 200px;  
+    }
+    .touch_1{
+        width: 125px;
+        height: 40px;
+        font-size: 10px;
+    }
+    .touch_2{
+        width: 125px;
+        height: 40px;
+        font-size: 10px;
+    }
+    .fone_2{
+        flex-direction: column;
+    }
+    .fone_3{
+        flex-direction: column;
+    }
+    .un{
+        margin-left: -50px;
+    }
+    .deux{
+        margin-left: -50px;
+    }
+    .tro{
+        margin-left: -50px;
+    }
+    .omni{
+        font-size: 20px;
+        margin-left: 20px;
+        flex-direction: column;
+    }
+    .green{
+        width: 120px;
+    }
+    .jap{
+        font-size: 20px;
+        display: flex;
+    }
+    .sect_6{
+        margin-left: -1px;
+        height: 1030px;
+        width: 300px;
+        flex-direction: column;
+    }
+    .s{
+        flex-direction: column;
+    }
+    .ima{
+        margin-top: 130px;
+        margin-left: 0px;
+        width: 300px;
+        height: 300px;
+    }
+    .blanc{
+        width: 200px;
+    }
+    .sele{
+        width: 200px;
+    }
+    .choco{
+        width: 200px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .suit{
+        margin-top: 30px;
+    }
+    .email{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .dimun{
+        width: 100px;
+         height: 20px;
+        margin-top: 30px;
+    }
+    .day{
+        font-size: 25px;
+    }
+    label{
+        font-size: 15px;
+    }
+    .Gety{
+        font-size: 25px;
+    }
+    .Healt{
+        font-size: 20px;
+    }
+    footer{
+        height: 1600px;
+        flex-direction: column;
+    }
+    .logo_2{
+        margin-left: -40px;
     }
     .toggle{
         display: block;
@@ -844,12 +1057,13 @@ footer{
         top: 0;
         left: 0;
         width: 100%;
-        height: 900px;
+        height: 100%;
         flex-direction: column;
         padding: 2rem;
         justify-content: space-around;
         transform: translateX(-100%);
         transition: transform 1s;
+        margin-top: 50px;
     }
     .nav li a {
         font-size: 2rem;
@@ -898,13 +1112,16 @@ footer{
     .open .fermer {
         display: block;
     }
+    .open .foto {
+        display: none;
+    }
     
     .nav {
         position: absolute;
         top: 0;
         left: 0px;
         width: 100%;
-        height: 900px;
+        height: 1200px;
         flex-direction: column;
         padding: 2rem;
         justify-content: space-around;
