@@ -726,14 +726,14 @@ footer{
     }
     .background{
         height: 1300px;
-        width: 280px;
+        width: 241px;
     }
     .log{
         margin-left: 0px;
     }
     .bas {position: absolute;
         z-index: 1;
-        right: 50px;
+        right: 100px;
         width: 95px;
         height: 145px;
         margin-top: 50px;
@@ -743,7 +743,7 @@ footer{
         position: absolute;
         z-index: 2;
         margin-top: 45%;
-        right: 40px;
+        right: 80px;
         width: 145px;
         height: 100px;
     }
@@ -752,7 +752,7 @@ footer{
         position: absolute;
         z-index: 3;
         margin-top: 40%;
-        right: 10px;
+        right: 60px;
         width: 100px;
         height: 85px;
     }
@@ -802,7 +802,7 @@ footer{
     }
     .sect_4{
         flex-direction: column;
-        height: 4000px;
+        height: 5000px;
         width: 280px;
     }
     .testi{
@@ -1001,6 +1001,7 @@ footer{
     .open .fermer{
         display: block;
     }
+    
     .nav{
         position: absolute;
         top: 0;
@@ -1012,7 +1013,7 @@ footer{
         justify-content: space-around;
         transform: translateX(-100%);
         transition: transform 1s;
-        margin-top: 50px;
+    
     }
     .nav li a {
         font-size: 2rem;
@@ -1027,7 +1028,7 @@ footer{
     
 }
 
-@media all and (max-width: 184px) {
+/* @media all and (max-width: 184px) {
     
     .bas {position: absolute;
         z-index: 1;
@@ -1055,13 +1056,12 @@ footer{
         height: 85px;
     }
 }
-
+ */
 
 
 
 @media all and (max-width: 991px) {
-    /* .container{height: 1000px;
-        flex-direction: column; */
+    
     .toggle{
         display: block;
         font-size: 2rem;
@@ -1093,11 +1093,15 @@ footer{
     .open .foto {
         display: none;
     }
-    
+    }
+    .open .log {
+        display: none;
+    }
     .nav {
         position: absolute;
+        margin-top: -50px;
         top: 0;
-        left: 0px;
+        left: -20px;
         width: 100%;
         height: 1200px;
         flex-direction: column;
@@ -1108,11 +1112,11 @@ footer{
         background: rgb(255, 243, 243);
     }
     .nav li a {
-        font-size: 2rem;
+        font-size: 1em;
         color: rgb(0, 0, 0);
     }
     .orange{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .open .nav {
         transform: translateX(0);
